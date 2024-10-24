@@ -1,0 +1,62 @@
+.main {
+    background-color:gray;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 60px;
+}
+
+.movies {
+    background-color: white;
+    display: grid;
+    grid-template-columns : repeat(5,1fr);
+    row-gap: 10px;
+    column-gap: 15px;
+    margin-top: 30px;
+}
+
+.box {
+    width: 500px;
+    height: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(1, 1, 1, 1);
+    text-align: left;
+}
+
+.poster {
+    width: 500px;
+    height: 700px;
+}
+
+.search_input {
+    width: 600px;
+    height: 80px;
+    font-size: 50%;
+    border-radius: 5px;
+}
+
+.search_button {
+    width: 100px;
+    height: 80px;
+    font-size: 30%;
+    border-radius: 5px;
+}
+
+
+.modalBox{
+    position: fixed;
+    top: 100px;
+    left: 1100px;
+    width: 760px;
+    background-color: black;
+    padding: 40px;
+    text-align: left;
+    color: white
+}
+
+.modalImage{
+    width: 750px;
+    height: 1000px;
+}
+
